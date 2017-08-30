@@ -10,7 +10,7 @@ public class Main {
 
         Store.printAll();
 
-        System.out.println("\n Removing Harry Potter \n");
+        System.out.println("\n Removing Book 1: Harry Potter \n");
 
         Store.removeBook(1);
 

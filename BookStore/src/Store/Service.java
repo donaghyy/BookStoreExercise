@@ -19,10 +19,10 @@ public class Service {
     }
 
     public void printAll(){
-    		store.forEach((k,b)-> 
+    		store.forEach((key, book) -> 
     		{
-            System.out.print("ID: " + k + "\n" + "The author is " + b.getAuthor() + "\n"
-            		+ "The books title is " + b.getTitle() + "\n");
+            System.out.print("ID: " + key + "\n" + "The author is: " + book.getAuthor() + "\n"
+            		+ "The books title is: " + book.getTitle() + "\n\n");
 
         });
     }
